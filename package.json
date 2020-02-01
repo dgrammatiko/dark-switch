@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/dgrammatiko/dark-switch#readme",
   "devDependencies": {
-    "cypress": "^3.8.3",
-    "http-server": "^0.12.1"
+    "cypress": "3.8.3",
+    "http-server": "0.12.1"
   }
 }
