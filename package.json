@@ -1,6 +1,6 @@
 {
   "name": "ce-theme-switcher",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Dark, light mode swither",
   "main": "./src/index.js",
   "type": "module",
