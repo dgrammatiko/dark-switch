@@ -28,7 +28,7 @@ dark-light-switch button:before {
   content: "";
   height: 34px;
   width: 34px;
-  left: 6px;
+  left: 0px;
   bottom: 5px;
   top: 0;
   bottom: 0;
