@@ -1,5 +1,5 @@
 {
-  "name": "dark-switch",
+  "name": "ce-theme-switcher",
   "version": "0.0.1",
   "description": "Dark, light mode swither",
   "main": "./src/index.js",
