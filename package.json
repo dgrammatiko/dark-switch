@@ -1,0 +1,25 @@
+{
+  "name": "dark-switch",
+  "version": "0.0.1",
+  "description": "Dark, light mode swither",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "server": "npx http-server src/.",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgrammatiko/dark-switch.git"
+  },
+  "author": "Dimitrios Grammatikogiannis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dgrammatiko/dark-switch/issues"
+  },
+  "homepage": "https://github.com/dgrammatiko/dark-switch#readme",
+  "devDependencies": {
+    "cypress": "^3.8.3",
+    "http-server": "^0.12.1"
+  }
+}
