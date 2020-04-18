@@ -135,7 +135,3 @@ export class Switcher extends HTMLElement {
     }
   }
 }
-
-if (!customElements.get('dark-light-switch')) {
-  customElements.define('dark-light-switch', Switcher);
-}

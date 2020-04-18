@@ -9,28 +9,38 @@
   <style>
     @media (prefers-color-scheme: dark) {
       :root:not(.is-light) {
+        transition: background-color ease 0.6s,
+                    color ease 0.6s;
+
         /* :root is <html> for HTML documents */
         --color-primary: #0060df;
         --color-secondary: #fbfbfe;
         --color-accent: #fd6f53;
-        --font-color: #000000;
+        --font-color: #000;
       }
 
       html:not(.is-light) body {
-        background: #333
+        transition: background-color ease 0.6s,
+                    color  ease 0.6s;
+
+        background: #333;
       }
     }
 
     :root.is-dark {
+        transition: background-color ease 0.6s,
+                    color ease 0.6s;
       /* :root is <html> for HTML documents */
       --color-primary: #17ed90;
       --color-secondary: #2a2c2d;
       --color-accent: #12cdea;
-      --font-color: #ffffff;
+      --font-color: #fff;
     }
 
     html.is-dark body {
-      background: #333
+      transition: background-color ease 0.6s,
+                    color ease 0.6s;
+      background: #333;
     }
 
     html,
@@ -59,7 +69,12 @@
     <dark-light-switch default=true text-on=on text-off=off text-legend="dark theme:"></dark-light-switch>
   </header>
 
-  <script type=module src=index.js></script>
+  <script type="module">
+  import { Switcher } from './index.js';
+  if (!customElements.get('dark-light-switch')) {
+    customElements.define('dark-light-switch', Switcher);
+  }
+  </script>
 </body>
 
 </html>
