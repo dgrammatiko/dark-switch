@@ -21,7 +21,7 @@
   "devDependencies": {
     "cypress": "4.4.1",
     "http-server": "0.12.1",
-    "stylelint": "13.3.2",
+    "stylelint": "13.3.3",
     "stylelint-config-standard": "20.0.0"
   }
 }
