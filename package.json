@@ -2,7 +2,7 @@
   "name": "ce-theme-switcher",
   "version": "0.0.3",
   "description": "Dark, light mode swither",
-  "main": "./src/index.js",
+  "exports": "./src/index.js",
   "type": "module",
   "scripts": {
     "server": "npx http-server src/.",
