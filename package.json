@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/dgrammatiko/dark-switch#readme",
   "devDependencies": {
-    "stylelint": "15.8.0",
+    "stylelint": "15.9.0",
     "stylelint-config-standard": "33.0.0"
   }
 }
